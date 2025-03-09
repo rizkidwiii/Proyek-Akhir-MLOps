@@ -1,0 +1,256 @@
+feature {
+  name: "Age"
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Churn"
+  type: INT
+  bool_domain {
+  }
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Customer_ID"
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Customer_Satisfaction_Score"
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Daily_Watch_Time"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Device_Used_Most_Often"
+  type: BYTES
+  domain: "Device_Used_Most_Often"
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Engagement_Rate"
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Genre_Preference"
+  type: BYTES
+  domain: "Genre_Preference"
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Monthly_Income"
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Number_of_Profiles_Created"
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Payment_History"
+  type: BYTES
+  domain: "Payment_History"
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Promotional_Offers_Used"
+  type: BYTES
+  domain: "Promotional_Offers_Used"
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Region"
+  type: BYTES
+  domain: "Region"
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Subscription_Length"
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Subscription_Plan"
+  type: BYTES
+  domain: "Subscription_Plan"
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Support_Queries_Logged"
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+string_domain {
+  name: "Device_Used_Most_Often"
+  value: "Laptop"
+  value: "Mobile"
+  value: "Smart TV"
+  value: "Tablet"
+}
+string_domain {
+  name: "Genre_Preference"
+  value: "Action"
+  value: "Comedy"
+  value: "Drama"
+  value: "Romance"
+  value: "Sci-fi"
+}
+string_domain {
+  name: "Payment_History"
+  value: "Delayed"
+  value: "On-Time"
+}
+string_domain {
+  name: "Promotional_Offers_Used"
+  value: "No"
+  value: "Yes"
+}
+string_domain {
+  name: "Region"
+  value: "Africa"
+  value: "Asia"
+  value: "Europe"
+  value: "North America"
+  value: "Oceania"
+  value: "South America"
+}
+string_domain {
+  name: "Subscription_Plan"
+  value: "Basic"
+  value: "Premium"
+  value: "Standard"
+}
