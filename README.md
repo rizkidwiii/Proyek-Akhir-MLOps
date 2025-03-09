@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Submission 1: Churn Prediction for Netflix: Leveraging Machine Learning for Customer Retention
 Nama: Rizki Dwi Sya'bana Nugraha
 
@@ -15,3 +16,6 @@ Username dicoding: rizkidwi07
 | Opsi deployment | Deksripsi tentang opsi deployment |
 | Web app | Tautan web app yang digunakan untuk mengakses model serving. Contoh: [nama-model](https://model-resiko-kredit.herokuapp.com/v1/models/model-resiko-kredit/metadata)|
 | Monitoring | Deksripsi terkait hasil monitoring dari model serving |
+=======
+# Proyek-Pengembangan-dan-Pengoperasian-Sistem-Machine-Learning
+>>>>>>> a33199a3111d223a7f00016a848720e522203eb9
